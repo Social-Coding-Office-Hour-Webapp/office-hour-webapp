@@ -1,0 +1,11 @@
+{
+  "name": "office-hour-webapp",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd webapp && npm run dev\" ",
+    "install": "concurrently \"cd backend && npm install\" \"cd webapp && npm install\" "
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
